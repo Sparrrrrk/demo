@@ -1,17 +1,25 @@
+.body_background_img{
+    width:100%;
+    position: fixed;
+    z-index:-1;
+}
 .header{
     background: transparent;
     padding-bottom: 10px;
     /*padding-top: 20px;*/
 }
-#navbarSupportedContent{
+.navbarSupportedContent{
     padding-left: 43%;
 }
 .card{
     box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
     float: left;
+    display: inline-block;
 }
 #body-content{
-    margin-left: 288px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10%;
 }
 .body-content_shift{
     padding-left: 20px;
@@ -55,4 +63,5 @@ main{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 50px;
+    font-family: Arial;
 }

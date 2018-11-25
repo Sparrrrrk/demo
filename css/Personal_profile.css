@@ -1,0 +1,43 @@
+.body_background_img{
+    width:100%;
+    position: fixed;
+    z-index:-1;
+}
+.brd-btm{
+    border-bottom: 1px solid transparent;
+    border-bottom-color: #e6e6e6;
+}
+.section{
+    margin-bottom: 2.188em;
+    padding-bottom: 1.375em;
+}
+.card-inner img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.phone_content{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10%;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+    border-radius: 1%;
+}
+.phone_card{
+    background-color: rgba(255,255,255,0.7);
+    padding: 10% 0 10% 0;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+.phone_card img{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.phone_card_body{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
