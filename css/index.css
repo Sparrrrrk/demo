@@ -2,6 +2,7 @@
     width:100%;
     position: fixed;
     z-index:-1;
+
 }
 .header{
     background: transparent;
@@ -20,6 +21,7 @@
     display: inline-block;
     position: absolute;
     margin-left: 10%;
+
 }
 .body-content_shift{
     padding-left: 20px;
@@ -43,10 +45,11 @@
     padding: 40px 25px;
     position: relative;
     border: 1px solid #e6e6e6;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
 }
 main{
     display: block;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
 }
 .container-paper-con{
     float: none;
@@ -63,5 +66,30 @@ main{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 50px;
-    font-family: Arial;
 }
+.container-paper-intro{
+    margin-top: 50px;
+    margin-left: 3.4%;
+    margin-right: 3.4%;
+    border-bottom: #e6e6e6 solid 1px;
+    /*transition: transform .6s cubic-bezier(.11,0,.31,1),-webkit-transform .6s cubic-bezier(.11,0,.31,1);*/
+}
+.category{
+    margin-bottom: 20px;
+}
+/*.category img .card-img-top{*/
+    /*transition: all 0.4s ease-in-out;*/
+    /*-webkit-transform: scale(1.1);*/
+    /*-moz-transform: scale(1.1);*/
+    /*-ms-transform: scale(1.1);*/
+    /*-o-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
+/*}*/
+/*.category:hover img{*/
+    /*-webkit-transform: scale(1);*/
+    /*-moz-transform: scale(1);*/
+    /*-ms-transform: scale(1);*/
+    /*-o-transform: scale(1);*/
+    /*transform: scale(1);*/
+/*}*/
+
