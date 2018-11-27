@@ -1,4 +1,10 @@
-d-none.body_background_img{
+body{
+    font-family:"American Typewriter";
+}
+.font_set{
+    font-family:"American Typewriter";
+}
+.body_background_img{
     width:100%;
     position: fixed;
     z-index:-1;
@@ -41,3 +47,33 @@ d-none.body_background_img{
     margin-left: 50%;
     transform: translate(-50%, 0);
 }
+.btn-outline-info{
+   margin-bottom: 10px;
+}
+.information_block h2{
+    margin-bottom: 5%;
+}
+.information_block p{
+    margin: 0;
+}
+.hometwon_img{
+    display: table;
+    overflow: hidden;
+    box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
+    border: 1px white solid;
+    padding: 0;
+    transition: all 1s;
+}
+.hometwon_img img{
+    overflow: hidden;
+}
+.hometwon_img img:hover{
+    transform: scale(1.4);
+    filter: blur(3px);
+}
+.content_of_hometwon{
+    display: none;
+    position: absolute;
+}
+
+
