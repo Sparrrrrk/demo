@@ -11,6 +11,10 @@
 }
 .navbarSupportedContent{
     padding-left: 43%;
+
+}
+.header nav{
+    width: 100%;
 }
 .card{
     box-shadow: -4px 7px 15px 1px rgba(118, 95, 91, 0.34);
