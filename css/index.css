@@ -96,4 +96,20 @@ main{
     /*-o-transform: scale(1);*/
     /*transform: scale(1);*/
 /*}*/
+.phone_bar{
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+}
+.phone_bar li{
+    color: #2b2b2b;
+    border-bottom: rgba(0,0,0,0.2) 1px solid;
+}
+.phone_bar a{
+    color: #2b2b2b;
+    list-style: none;
+    text-decoration:none;
+}
+.phone_bar a:hover{
+    color: #050505;
 
+}
