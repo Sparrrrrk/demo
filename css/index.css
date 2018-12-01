@@ -1,3 +1,4 @@
+
 .body_background_img{
     width:100%;
     position: fixed;
@@ -8,6 +9,7 @@
     background: transparent;
     padding-bottom: 10px;
     /*padding-top: 20px;*/
+    display: flex;
 }
 .navbarSupportedContent{
     padding-left: 43%;
@@ -109,19 +111,19 @@ main{
     margin-bottom: 20px;
 }
 /*.category img .card-img-top{*/
-    /*transition: all 0.4s ease-in-out;*/
-    /*-webkit-transform: scale(1.1);*/
-    /*-moz-transform: scale(1.1);*/
-    /*-ms-transform: scale(1.1);*/
-    /*-o-transform: scale(1.1);*/
-    /*transform: scale(1.1);*/
+/*transition: all 0.4s ease-in-out;*/
+/*-webkit-transform: scale(1.1);*/
+/*-moz-transform: scale(1.1);*/
+/*-ms-transform: scale(1.1);*/
+/*-o-transform: scale(1.1);*/
+/*transform: scale(1.1);*/
 /*}*/
 /*.category:hover img{*/
-    /*-webkit-transform: scale(1);*/
-    /*-moz-transform: scale(1);*/
-    /*-ms-transform: scale(1);*/
-    /*-o-transform: scale(1);*/
-    /*transform: scale(1);*/
+/*-webkit-transform: scale(1);*/
+/*-moz-transform: scale(1);*/
+/*-ms-transform: scale(1);*/
+/*-o-transform: scale(1);*/
+/*transform: scale(1);*/
 /*}*/
 .phone_bar{
     width: 100%;
