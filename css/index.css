@@ -146,5 +146,10 @@ main{
 }
 .phone_bar a:hover{
     color: #050505;
-
+}
+.over_hidden{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
